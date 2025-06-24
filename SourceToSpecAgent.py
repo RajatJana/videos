@@ -156,7 +156,7 @@ def create_chain(relevant_examples):
     def chain(input_text):
          # Initialize the LlamaCpp model  
         
-        os.environ["GOOGLE_API_KEY"]="AIzaSyArYq9kel4SMUDYNpFhhuRq40YJQuICNwM"
+        os.environ["GOOGLE_API_KEY"]=""
         #llm = ChatGoogleGenerativeAI(
           #model="gemini-1.5-pro",
           #temperature=0,
